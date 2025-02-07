@@ -20,7 +20,7 @@ start = time.time()
 square_cuda = load(
     name="square_cuda",
     sources=[f"{dir_path}/square_kernel.cu"],
-    verbose=False,
+    verbose=True,
     build_directory=build_dir
 )
 
